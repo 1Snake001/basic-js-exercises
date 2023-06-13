@@ -1,7 +1,7 @@
 'use strict';
 
-// Írj egy programot, ami rajzol
-// egy ilyen négyzetet:
+// Write a program that draws
+// a square like this:
 //
 //
 // %%%%%%
@@ -11,7 +11,7 @@
 // %    %
 // %%%%%%
 //
-// A négyzetnek annyi sora legyen, mint a lineCount értéke
+// The square should have as many lines as the value of lineCount
 
 function drawSquare(lineCount) {
     let spaceCount = lineCount - 2;
@@ -22,6 +22,6 @@ function drawSquare(lineCount) {
             console.log('%' + ' '.repeat(spaceCount) + '%');
         }
     }
-}
+};
 
 drawSquare(4);
